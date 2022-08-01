@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url('images/Background.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    width: 28%;
+    height: 70%;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.first{
+    background-color: rgb(15, 54, 248,.85);
+    width: 100%;
+    height: 30%;
+    background-image: url('images/Pattern.png');
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding: 0 20%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+.first p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.pro{
+    display: flex;
+
+}
+.pro img{
+    border-radius: 100%;
+    height: 50px;
+    aspect-ratio: 1;
+}
+.bot{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.re{
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 35px;
+}
+.for input{
+    height: 40px;
+    width:260px;
+    border: none;
+    background: rgb(242, 241, 241);
+    border-radius: 5px;
+    border: 1px solid rgb(232, 232, 232);
+    padding: 0 20px;
+}
+.for button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: rgb(14, 51, 235);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.sp{
+    color: rgb(158, 158, 158);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.he{
+    padding: 0 10px;
+}
+.he h2{
+    font-size: 18px;
+    font-weight: 550;
+}
+.he h3{
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.bot p{
+    text-align: center;
+    font-size: 15px;
+    padding: 25px 26px;
+    opacity: .8;
+}
